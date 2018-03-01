@@ -30,10 +30,11 @@ public class CompetitionAdminCoord
       members = new HashSet<Member>();
 
       members.add(new Member("Michael Goldrei", new M256Date("01/11/1978")));
-      members.add(new Member("Annie Liebovitz", new M256Date("02/10/1949")));
+      //members.add(new Member("Annie Liebovitz", new M256Date("02/10/1949")));
       members.add(new Member("Dorothea Lange", new M256Date("26/05/1895")));
       members.add(new Member("Robert Capa", new M256Date("22/10/1913")));
       members.add(new Member("Ben Archer", new M256Date("15/03/2002")));
+      //members.add(new Member("Michael Goldrei", new M256Date("01/11/1978")));
 
       categories = new HashSet<Category>();
       categories.add(new Category("Street Life", true));
